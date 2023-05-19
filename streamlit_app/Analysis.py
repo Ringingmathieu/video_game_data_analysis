@@ -4,12 +4,8 @@ import plotly.express as px
 import plotly.subplots as sp
 import streamlit as st
 
-from pathlib import Path
-
-video_game = Path(__file__).parents[1] / 'Data/Video_Games.csv'
-
 # import the dataset 
-video_game = pd.read_csv(video_game)
+video_game = pd.read_csv('Data/Video_Games.csv')
 
 ## clean the dataset for analysis
 
