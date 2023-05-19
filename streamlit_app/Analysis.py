@@ -8,9 +8,8 @@ from pathlib import Path
 
 video_game = Path(__file__).parents[1] / 'Data/Video_Games.csv'
 
-video_game = pd.DataFrame(video_game)
 # import the dataset 
-# video_game = pd.read_csv('Data/Video_Games.csv')
+video_game = pd.read_csv('Data/Video_Games.csv')
 
 ## clean the dataset for analysis
 
