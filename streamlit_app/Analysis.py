@@ -1,7 +1,5 @@
 # import the libraries 
 import pandas as pd
-import numpy as np
-import datetime as dt
 import plotly.express as px
 import plotly.subplots as sp
 import streamlit as st
