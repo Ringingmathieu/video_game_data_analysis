@@ -4,7 +4,7 @@ import streamlit as st
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 
 # import the dataset 
-video_game = pd.read_csv('Data/Video_Games.csv')
+video_game = pd.read_csv('/app/video_game_data_analysis/streamlit_app/Data/Video_Games.csv')
 
 # Create a header for the page
 st.title('Data exploration')
