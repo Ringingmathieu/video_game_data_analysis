@@ -24,7 +24,7 @@ st.markdown("<h2 style='text-align: center; color: black;'>Video Game Sales Anal
             unsafe_allow_html=True)
 
 # import an image 
-st.image('img/controller.jpg')
+st.image('/app/video_game_data_analysis/streamlit_app/img/controller.jpg')
 
 # create a separator
 st.markdown('------')
