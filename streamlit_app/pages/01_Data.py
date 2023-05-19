@@ -3,12 +3,8 @@ import pandas as pd
 import streamlit as st
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 
-from pathlib import Path
-
-video_game = Path(__file__).parents[1] / 'Data/Video_Games.csv'
-
 # import the dataset 
-video_game = pd.read_csv(video_game)
+video_game = pd.read_csv('Data/Video_Games.csv')
 
 # Create a header for the page
 st.title('Data exploration')
