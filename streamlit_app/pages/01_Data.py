@@ -81,12 +81,12 @@ with tab2:
             ## Analyze sales by region
 
             # calculate the sum of sales for each region and global sales
-            # multiply by 100000 as the column is in millions
-            NA_Sales = video_game['NA_Sales'].sum()*100000
-            EU_Sales = video_game['EU_Sales'].sum()*100000
-            JP_Sales = video_game['JP_Sales'].sum()*100000
-            Other_Sales = video_game['Other_Sales'].sum()*100000
-            Global_Sales = video_game['Global_Sales'].sum()*100000
+            # multiply by 1000000 as the column is in millions
+            NA_Sales = video_game['NA_Sales'].sum()*1000000
+            EU_Sales = video_game['EU_Sales'].sum()*1000000
+            JP_Sales = video_game['JP_Sales'].sum()*1000000
+            Other_Sales = video_game['Other_Sales'].sum()*1000000
+            Global_Sales = video_game['Global_Sales'].sum()*1000000
 
 
             # print the result 
