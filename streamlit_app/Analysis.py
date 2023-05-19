@@ -5,7 +5,7 @@ import plotly.subplots as sp
 import streamlit as st
 
 # import the dataset 
-video_game = pd.read_csv('Data/Video_Games.csv') //relative path
+video_game = pd.read_csv('Data/Video_Games.csv')
 
 ## clean the dataset for analysis
 
