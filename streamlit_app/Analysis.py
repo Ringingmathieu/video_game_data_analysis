@@ -5,7 +5,7 @@ import plotly.subplots as sp
 import streamlit as st
 
 # import the dataset 
-video_game = pd.read_csv('Data/Video_Games.csv')
+video_game = pd.read_csv('streamlit_app/Data/Video_Games.csv')
 
 ## clean the dataset for analysis
 
@@ -24,7 +24,7 @@ st.markdown("<h2 style='text-align: center; color: black;'>Video Game Sales Anal
             unsafe_allow_html=True)
 
 # import an image 
-st.image('/app/video_game_data_analysis/streamlit_app/img/controller.jpg')
+st.image('streamlit_app/img/controller.jpg')
 
 # create a separator
 st.markdown('------')
