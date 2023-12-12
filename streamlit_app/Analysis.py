@@ -148,8 +148,6 @@ the sales has been dropping every year.
 # count the sum of sales grouped by years
 sales_year = video_game.groupby('Year_of_Release').sum().reset_index()
 
-st.dataframe(sales_year)
-
 # create lineplot of sales by year and region
 fig_4 = px.line(sales_year, x='Year_of_Release', y=sales_year.columns,
             title='Sales by Year')
